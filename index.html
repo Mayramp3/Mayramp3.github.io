@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCESA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form name="formLogin" method="post" action="Default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="formLogin">
+        <div>
+        <input type="hidden" name="ToolkitScriptManager1_HiddenField" id="ToolkitScriptManager1_HiddenField" value=";;AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:en-US:1547e793-5b7e-48fe-8490-03a375b13a33:475a4ef5:effe2a26:1d3ed089:5546a2b:497ef277:a43b07eb:751cdd15:dfad98a5:3cf12cf1">
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+        <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1MzM5NjU2NjVkZJ2myVqV1jvExTYH1SwMzLoudkUB">
+        </div>
+        
+        <script type="text/javascript">
+        //<![CDATA[
+        var theForm = document.forms['formLogin'];
+        if (!theForm) {
+            theForm = document.formLogin;
+        }
+        function __doPostBack(eventTarget, eventArgument) {
+            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                theForm.__EVENTTARGET.value = eventTarget;
+                theForm.__EVENTARGUMENT.value = eventArgument;
+                theForm.submit();
+            }
+        }
+        //]]>
+        </script>
+        
+        
+        <script src="/WebResource.axd?d=GYD_1nRfUTswe2Xhk_94q0eloOzr8G0YT6Fh4ppgmsy_9RWrjrmxEsT3qBSO92N4SMCLm3Is8K1i6b4i1SxFry193t41&amp;t=638333362366291323" type="text/javascript"></script>
+        
+        
+        <script src="/ScriptResource.axd?d=v8oZUMTSGYx2rfIIEoUw_Ry5zPuCKrbl2KJp9EA8pdlo-LkM-yhw7XrRsIzedfL9cVTP7x-OkNDMhYcZDs3krDUMQWuTF_NG_8k4TXCn9ujPOyk7fiwlkA2NizYPfXr6y0mgrEb4xnyfI3KbbqdJcVBFYdg1&amp;t=1a48dd9b" type="text/javascript"></script>
+        <script src="/ScriptResource.axd?d=0RuAxjDpjgAJM7pYBjDoZ2C7bC3Sf6uuqlmdMF1GQ3tUhk4-aU0JMABQjDM_US1eaNanqsNhv_BebDOlCP2TJ-y6vCj2VHmLRdrYcm6gHwU2Z1FXzH4tWf9EOBcKgLpbU3ioVg2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+        if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+        //]]>
+        </script>
+        
+        <script src="/ScriptResource.axd?d=cJFkQtZDtVxR2zDFX6_sAQyF4khyHjhIx2yWXkpw8V-o2-ygruPGs1OfKqwfB9qIod2KMxmUEulDZua7ZEOJncviVbNBswlG4bNGr9u3VzjfBqr4BndD6-npv3G-rP75Y6bL9g2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
+        <script src="/Default.aspx?_TSM_HiddenField_=ToolkitScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1547e793-5b7e-48fe-8490-03a375b13a33%3a475a4ef5%3aeffe2a26%3a1d3ed089%3a5546a2b%3a497ef277%3aa43b07eb%3a751cdd15%3adfad98a5%3a3cf12cf1" type="text/javascript"></script>
+        <script type="text/javascript">
+        //<![CDATA[
+        function WebForm_OnSubmit() {
+        if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+        return true;
+        }
+        //]]>
+        </script>
+        
+        <div>
+        
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334">
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQLxzYH2AgL/5/jrCgK1qbSRCwKV8Ob6AgLwopTvA6urcZOvl2CxyPFZt0yaW9BxqTwX">
+        </div>
+            <script type="text/javascript">
+        //<![CDATA[
+        Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', document.getElementById('formLogin'));
+        Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tUpdatePanel'], [], [], 90);
+        //]]>
+        </script>
+        
+            <script type="text/javascript" language="javascript">
+                //  registro de eventos request
+                Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(beginRequest);
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequest);
+        
+                function beginRequest(sender, args) {
+                    // show popup
+                    var ProgressBar = $find('ProgressBarSubmit');
+        
+                    if (ProgressBar != null) {
+                        Sys.Application.removeComponent(ProgressBar);
+                        ProgressBar.show();
+                    }
+                }
+        
+                function endRequest(sender, args) {
+                    //  Oculta popup
+                    $find('ProgressBarSubmit').hide();
+                }
+            </script>   
+            <div id="UpdatePanel">
+            
+                    <table  cellpadding="0" cellspacing="0" width="100%" style="background-color: rgb(0, 0, 0); --darkreader-inline-bgcolor: #181a1b;" data-darkreader-inline-bgcolor="">
+                        <tbody><tr><td><img id="BannerOcesaRH" src="imagenes/banner1.jpg" style="border-width:0px;"></td></tr>
+                    </tbody></table>
+                    <div style="padding:4px 7px 7px 7px;">
+                        <table  cellpadding="0" cellspacing="0" width="100%" style="border: 1px dotted rgb(187, 187, 187); height: 400px; --darkreader-inline-border-top: #aca7a0; --darkreader-inline-border-right: #aca7a0; --darkreader-inline-border-bottom: #aca7a0; --darkreader-inline-border-left: #aca7a0;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                            <tbody><tr style="vertical-align:top;"><td colspan="3" class="EncabezadoPagina"><div id="Label1" style="padding:9px 0px 0px 9px;">Acceso al Sistema</div></td></tr>                    
+                            <tr>
+                                <td></td>
+                                <td style="vertical-align:top;">
+                                    <table  cellpadding="0" cellspacing="0" style="height:120px;">
+                                        <tbody><tr>
+                                            <td rowspan="4" style="width:330px;text-align:right;padding-right:15px;vertical-align:top;"><img id="NetworkIm" src="Imagenes/Generic-Network.jpg" style="border-width:0px;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="FontReglon ColIzq BordeSupDer" style="width:150px;">Número de contacto</td>
+                                            <td class="FontReglon ColDer BordeSupIzq" style="width:180px;">
+                                                <div style="padding-left:5px;">
+                                                    <input name="txtIdContacto" type="text" maxlength="6" id="txtIdContacto" class="TextBox" style="width:70px;">
+                                                    <span id="Validator_txtIdContacto" class="Alerta10" style="display:none;"><div style="padding-top:5px;">* Indique el número de contacto</div></span>
+                                                    <span id="RegExpValidator_txtIdContacto" class="Alerta10" style="display:none;"><div style="padding-top:5px;padding-left:5px;">* Caracter invalido</div></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="FontReglon ColIzq">Número confidencial</td>
+                                            <td class="FontReglon ColDer">
+                                                <div style="padding-left:5px;">
+                                                    <input name="txtPassword" type="password" maxlength="10" id="txtPassword" class="TextBox" style="width:70px;">
+                                                    <span id="Validator_txtPassword" class="Alerta10" style="display:none;"><div style="padding-top:5px;">* Indique el número confidencial</div></span>
+                                                    <span id="RegExpValidator_txtPassword" class="Alerta10" style="display:none;"><div style="padding-top:5px;padding-left:5px;">* Caracter invalido</div></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr><td colspan="2" align="right" style="vertical-align:top; padding-top:15px;">
+                                            <a href="inicio.html"><input type="button" value="Entrar" class="Boton" style="width:80px;"></a>
+                                            
+                                            
+                                            </td></tr>
+                                    </tbody></table>
+                                    <table border="0" cellpadding="0" cellspacing="0" style="padding-left:15px; width:500px;">
+                                        <tbody><tr><td class="FontReglon" style="vertical-align:top;"><span id="ErrorLogin" class="Alerta10"></span></td></tr>
+                                    </tbody></table>
+                                    
+                                </td>
+                            </tr>
+                           
+                        </tbody></table>
+                    </div>
+                 
+                <div id="Panel1" style="display: none; background-color: transparent; --darkreader-inline-bgcolor: transparent; position: fixed;" data-darkreader-inline-bgcolor="">
+                 
+                    <div class="Procesando">Validando usuario... <img src="Imagenes/wait.gif" alt="wait"></div>
+                
+            </div>
+                <input type="hidden" name="hiddenField" id="hiddenField"> 
+                
+        <div id="ProgressBarSubmit_backgroundElement" class="ModalBackground" style="display: none; position: fixed; left: 0px; top: 0px;"></div></div>
+            <script language="javascript" type="text/javascript">
+                function StartProgressBar() {
+                    if (HasPageValidators()) {
+                        var isPageValid = Page_ClientValidate('');
+                        if (isPageValid != null) {
+                            if (isPageValid) {
+                                var ProgressBar;
+        
+                                ProgressBar = $find('ProgressBarSubmit');
+                                Sys.Application.removeComponent(ProgressBar);
+                                ProgressBar.hide();
+                                return true;
+                            }
+                            else { return false; }
+                        }
+                    }
+                }
+        
+                function BackPage() {
+                    var ProgressBar = $find('ProgressBarSubmit');
+                    Sys.Application.removeComponent(ProgressBar);
+                    ProgressBar.hide();
+                }
+        
+                function HasPageValidators() {
+                    var hasValidators = false;
+                    try {
+        
+                        if (Page_Validators.length > 0) {
+                            hasValidators = true;
+                        }
+                    }
+                    catch (error) { }
+        
+                    return hasValidators;
+                }
+            </script>
+        
+        <script type="text/javascript">
+        //<![CDATA[
+        var Page_Validators =  new Array(document.getElementById("Validator_txtIdContacto"), document.getElementById("RegExpValidator_txtIdContacto"), document.getElementById("Validator_txtPassword"), document.getElementById("RegExpValidator_txtPassword"));
+        //]]>
+        </script>
+        
+        <script type="text/javascript">
+        //<![CDATA[
+        var Validator_txtIdContacto = document.all ? document.all["Validator_txtIdContacto"] : document.getElementById("Validator_txtIdContacto");
+        Validator_txtIdContacto.controltovalidate = "txtIdContacto";
+        Validator_txtIdContacto.focusOnError = "t";
+        Validator_txtIdContacto.display = "Dynamic";
+        Validator_txtIdContacto.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+        Validator_txtIdContacto.initialvalue = "";
+        var RegExpValidator_txtIdContacto = document.all ? document.all["RegExpValidator_txtIdContacto"] : document.getElementById("RegExpValidator_txtIdContacto");
+        RegExpValidator_txtIdContacto.controltovalidate = "txtIdContacto";
+        RegExpValidator_txtIdContacto.display = "Dynamic";
+        RegExpValidator_txtIdContacto.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+        RegExpValidator_txtIdContacto.validationexpression = "\\d*";
+        var Validator_txtPassword = document.all ? document.all["Validator_txtPassword"] : document.getElementById("Validator_txtPassword");
+        Validator_txtPassword.controltovalidate = "txtPassword";
+        Validator_txtPassword.focusOnError = "t";
+        Validator_txtPassword.display = "Dynamic";
+        Validator_txtPassword.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+        Validator_txtPassword.initialvalue = "";
+        var RegExpValidator_txtPassword = document.all ? document.all["RegExpValidator_txtPassword"] : document.getElementById("RegExpValidator_txtPassword");
+        RegExpValidator_txtPassword.controltovalidate = "txtPassword";
+        RegExpValidator_txtPassword.display = "Dynamic";
+        RegExpValidator_txtPassword.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+        RegExpValidator_txtPassword.validationexpression = "[A-Za-z0-9]+";
+        //]]>
+        </script>
+        
+        
+        <script type="text/javascript">
+        //<![CDATA[
+        (function() {var fn = function() {$get("ToolkitScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+        var Page_ValidationActive = false;
+        if (typeof(ValidatorOnLoad) == "function") {
+            ValidatorOnLoad();
+        }
+        
+        function ValidatorOnSubmit() {
+            if (Page_ValidationActive) {
+                return ValidatorCommonOnSubmit();
+            }
+            else {
+                return true;
+            }
+        }
+                Sys.Application.initialize();
+        
+        document.getElementById('Validator_txtIdContacto').dispose = function() {
+            Array.remove(Page_Validators, document.getElementById('Validator_txtIdContacto'));
+        }
+        
+        document.getElementById('RegExpValidator_txtIdContacto').dispose = function() {
+            Array.remove(Page_Validators, document.getElementById('RegExpValidator_txtIdContacto'));
+        }
+        
+        document.getElementById('Validator_txtPassword').dispose = function() {
+            Array.remove(Page_Validators, document.getElementById('Validator_txtPassword'));
+        }
+        
+        document.getElementById('RegExpValidator_txtPassword').dispose = function() {
+            Array.remove(Page_Validators, document.getElementById('RegExpValidator_txtPassword'));
+        }
+        Sys.Application.add_init(function() {
+            $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"ModalBackground","PopupControlID":"Panel1","dynamicServicePath":"/Default.aspx","id":"ProgressBarSubmit"}, null, null, $get("hiddenField"));
+        });
+        //]]>
+        </script>
+        </form>
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.lobby_img{
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+.lobby_txt{
+    margin-left: 10rem;
+}
